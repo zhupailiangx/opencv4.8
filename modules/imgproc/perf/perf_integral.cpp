@@ -83,7 +83,7 @@ PERF_TEST_P(Size_MatType_OutMatDepth, integral_sqsum,
     SANITY_CHECK(sqsum, 1e-6);
 }
 
-PERF_TEST_P(Size_MatType_OutMatDepthArray, DISABLED_integral_sqsum_full,
+PERF_TEST_P(Size_MatType_OutMatDepthArray, integral_sqsum_full,
             testing::Combine(
                 testing::Values(TYPICAL_MAT_SIZES),
                 testing::Values(CV_8UC1, CV_8UC2, CV_8UC3, CV_8UC4),
