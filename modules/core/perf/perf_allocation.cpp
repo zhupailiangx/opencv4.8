@@ -18,7 +18,7 @@ namespace opencv_test
 
 typedef perf::TestBaseWithParam<MatType> MatDepth_tb;
 
-PERF_TEST_P(MatDepth_tb, DISABLED_Allocation_Aligned,
+PERF_TEST_P(MatDepth_tb, Allocation_Aligned,
     testing::Values(CV_8UC1, CV_16SC1, CV_8UC3, CV_8UC4))
 {
     const int matType = GetParam();
