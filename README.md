@@ -1,5 +1,12 @@
 ## OpenCV: Open Source Computer Vision Library
 
+### 关闭perf Disable和调整perf failed 
+### 测试结果到xlsx
+```
+python <opencv path>/run.py -t core
+python <opencv path>/report.py core.xml -o html ->core.xlsx
+```
+
 ### Resources
 
 * Homepage: <https://opencv.org>
