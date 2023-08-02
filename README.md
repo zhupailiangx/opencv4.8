@@ -1,5 +1,8 @@
 ## OpenCV: Open Source Computer Vision Library
 
+### 关闭perf Disable和调整perf failed 
+
+
 ### Resources
 
 * Homepage: <https://opencv.org>
