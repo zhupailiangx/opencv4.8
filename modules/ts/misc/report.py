@@ -120,7 +120,10 @@ if __name__ == "__main__":
             for m in metrics:
                 val = metrix_table[m][1](case, None, options.units)
                 if isinstance(val, float):
-                    tbl.newCell(m, "%.2f %s" % (val, options.units), val)
+                    if round(val,2)==0:
+                        tbl.newCell(m, "%.5f %s" % (val, options.units), val)
+                    else:
+                        tbl.newCell(m, "%.2f %s" % (val, options.units), val)
                 else:
                     tbl.newCell(m, val, val)
     if not needNewRow:
