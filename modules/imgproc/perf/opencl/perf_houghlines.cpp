@@ -82,7 +82,7 @@ OCL_PERF_TEST_P(HoughLinesPFixture, HoughLinesP, Combine(Values("cv/shared/pic5.
 
     OCL_TEST_CYCLE() cv::HoughLinesP(usrc, lines, rhoStep, thetaStep, threshold, minLineLength, maxGap);
 
-    EXPECT_NE((int) lines.total(), 0.1);
+    EXPECT_NE((int) lines.total(), 0);
     SANITY_CHECK_NOTHING();
 }
 
