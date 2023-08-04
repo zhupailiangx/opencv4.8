@@ -1,10 +1,19 @@
 ## OpenCV: Open Source Computer Vision Library
 
 ### 关闭perf Disable和调整perf failed 
-### 测试结果到xlsx
+### 编译
 ```
-python <opencv path>/run.py -t core
-python <opencv path>/report.py core.xml -o html ->core.xlsx
+cd opencv4.8
+mkdir build
+cd build
+cmake ..
+make -j8 opencv_perf_core opencv_perf_imgproc
+```
+#### 测试结果到xlsx
+```
+cd perf_test_data
+python3 ../modules/ts/misc/run.py ../build -t core
+python3 ../modules/ts/misc/report.py core.xml -o html ->core.xlsx
 ```
 
 ### Resources
