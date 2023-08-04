@@ -8,7 +8,7 @@ cd opencv4.8
 mkdir build
 cd build
 cmake ..
-make -j8 opencv_perf_core opencv_perf_imgproc
+make  opencv_perf_core opencv_perf_imgproc
 ```
 #### 测试结果到xlsx
 ```
