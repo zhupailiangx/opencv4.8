@@ -16,7 +16,7 @@ cd perf_test_data
 python3 ../modules/ts/misc/run.py ../build -t core
 python3 ../modules/ts/misc/report.py core.xml -o html ->core.xlsx
 ```
-
+---
 ### Resources
 
 * Homepage: <https://opencv.org>
