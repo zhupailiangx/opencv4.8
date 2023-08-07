@@ -1,5 +1,9 @@
 ## OpenCV perf
 关闭perf Disable,解决perf failed,调整samples=100,outliers=0
+### Failed 原因
+![image](https://github.com/zhupailiangx/opencv4.8/assets/120553507/c0f82035-3282-4f3b-8a52-74270046e334)
+
+
 ### 编译
 ```
 cd opencv4.8
