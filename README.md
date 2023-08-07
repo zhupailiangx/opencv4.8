@@ -3,7 +3,6 @@
 ### 关闭perf Disable和调整perf failed 
 ### 编译
 ```
-perf_test_data/cv/optflow/rubberwhale1.png 改成RubberWhale1.png
 cd opencv4.8
 mkdir build
 cd build
