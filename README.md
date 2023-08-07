@@ -1,6 +1,4 @@
-## OpenCV: Open Source Computer Vision Library
-
-### 关闭perf Disable和调整perf failed 
+## 关闭perf Disable,解决perf failed,调整samples=100,outliers=0
 ### 编译
 ```
 cd opencv4.8
@@ -17,6 +15,7 @@ python3 ../modules/ts/misc/report.py core.xml -o html ->core.xlsx
 ```
 ---
 ---
+## OpenCV: Open Source Computer Vision Library
 ### Resources
 
 * Homepage: <https://opencv.org>
